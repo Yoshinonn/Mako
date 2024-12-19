@@ -15,7 +15,7 @@ let userID = 'f21b7162-0004-4f66-95fd-372b6b1dd291';
  * Array of proxy server addresses with ports
  * Format: ['hostname:port', 'hostname:port']
  */
-const proxyIPs = ['178.128.91.137'];
+const proxyIPs = ['178.128.91.137:443', '104.248.145.216:443', '188.166.199.61:443', '128.199.218.226:443'];
 // ipv4
 // '178.128.91.137:443' '104.248.145.216:443', '8.222.223.76', '8.222.223.76:443', '8.222.153.74:443'
 // below is cdn with ipv6 priority
