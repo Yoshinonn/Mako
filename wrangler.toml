@@ -1,20 +1,20 @@
-name = "server-sg-vless-ws"
+name = "tsukishi-ws"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 [[routes]]
-pattern = "sg1.rinrin.eu.org"
+pattern = "sg.tsukishi.eu.org"
 custom_domain = true
 [[routes]]
-pattern = "quiz.int.vidio.com.sg1.rinrin.eu.org"
+pattern = "quiz.int.vidio.com.sg.tsukishi.eu.org"
 custom_domain = true
 [[routes]]
-pattern = "quiz.vidio.com.sg1.rinrin.eu.org"
+pattern = "quiz.vidio.com.sg.tsukishi.eu.org"
 custom_domain = true
 
 [vars]
 # PROXYIP = "211.230.110.231:50008"
-UUID = "f21b7162-0004-4f66-95fd-372b6b1dd291"
+UUID = "07045b60-b889-458a-aaed-07ea21acf65c"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
